@@ -4,9 +4,21 @@
   }
   header {
     height: 70px;
-    background: pink;
+    background: #f2f2f2;
     font-family: sans-serif;
   }
+
+  .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
   main {
     font-size: 0;
     width: 60%;
